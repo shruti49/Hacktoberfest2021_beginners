@@ -30,7 +30,7 @@ example: Variables_shruti49.js
 
 ```markdown
 // AUTHOR: Your Name
-// JavaScript Concept: your javascript concept that you want to add (ex: variable,datatypes etc)
+// JavaScript Concept: javascript concept that you want to add (ex: variable,datatypes etc)
 // GITHUB: your github profile link
 
 //Add your JavaScript concept below
