@@ -1,6 +1,51 @@
 # Hacktoberfest2021 Repo for Beginners
 ![HF2020 Events 1600x400 Centered](https://user-images.githubusercontent.com/40789486/135643400-72926541-6437-4ed6-b81a-77cfadbebafb.png)
+
+<table>
+  <tr>
+  <td>
+- Follow the Contribution guidelines**
+</td>
+<td>
+<h6 align="center">Repo Maintainers</h6>
+ </td>
+</tr>
+<tr>
+  <td>
+    
 ## How You Can Contribute to this repo
+Follow below steps for contribution.
+1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
+    
+### Name of File: js-concept-name_yourusername.js
+```markdown
+example: hello_world_Aman22sharma.js
+example: Variables_shruti49.js
+```
+    
+# Format
+
+### * JavaScript-Learn
+### Name of File: JS-concept-name_yourusername.js
+
+```markdown
+// AUTHOR: Your Name
+// JavaScript Concept: your javascript concept that you want to add (ex: variable,datatypes etc)
+// GITHUB: your github profile link
+
+//Add your JavaScript concept below
+```
+  </td>
+  <td>
+     <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136264790-d0559d21-505f-4141-b41d-40486a4a61a9.jpg" /></p>
+     <h6 align="center">Aman Sharma<br>Product Engineer<br>@Hylobiz, Banglore (India)</h6>
+    <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136265064-076243f0-51bb-4b78-b967-39ff25f4833d.png" /></p>
+    <h6 align="center">Shruti Shastri<br>Software Engineer<br>@StartupEd, Delhi (India)</h6>
+  </td>
+</tr>
+</table>
+
+<!-- ## How You Can Contribute to this repo
 Follow below steps for contribution.
 1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
 
@@ -8,7 +53,7 @@ Follow below steps for contribution.
 ```markdown
 example: hello_world_Aman22sharma.js
 example: Variables_shruti49.js
-```
+``` -->
 
 - You can not add the same concepts again so, make sure the concepts are unique.
 
