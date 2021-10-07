@@ -2,7 +2,7 @@
 AUTHOR: Abhijeet Ekad
 JavaScript Concept:Spread Operator 
 GITHUB: https://github.com/abhijeetekad
- */
+*/
 
 //Spread Operator
 /**
