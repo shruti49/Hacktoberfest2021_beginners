@@ -1,3 +1,38 @@
 // AUTHOR: Padmanabh Kharat
 // JavaScript Concept: if else statement
 // GITHUB: https://github.com/Padmanabh82
+
+//if statement
+
+//if statement only executes when condition is true.
+//syntax for 'if'  statement is 
+
+//Syntax
+if (condition){
+  // code block to be executed
+}
+
+//if else statement
+//this statement executes when upper statement is false and condition is true
+
+//Syntax
+else if (){
+  // code block to be executed
+}
+//Note:else-if only works where it is after if statement or other els-if
+
+//else statement
+//this statement executes when all upper statements are false
+
+//Syntax
+else{
+   // code block to be executed
+}
+
+
+
+
+
+
+
+
