@@ -7,6 +7,9 @@
 // which is invoked inside the outer function to get certain output.
 // here process is a function which is passed in another function printTitle as an argument.
 
+//output 
+//Process name: Memory Fragmentation
+
 function process(title) {
     console.log('Process name: ' + title);
     }
@@ -16,6 +19,3 @@ function process(title) {
         myCallback(title);
     }
     printTitle(process);
-    
-    //output 
-    //Process name: Memory Fragmentation
