@@ -39,7 +39,7 @@ let regularFunction = (a, b) => console.log(a * b);
 
 //Regular Function
 document.addEventListener('click', function () {
-    console.log('Hi');
+    console.log('Hi!!');
 })
 
 // Arrow Function
