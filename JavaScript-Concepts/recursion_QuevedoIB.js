@@ -18,19 +18,6 @@ const fibonacci = number => {
         return number;
     }
     else {
-        return fibonacci(num-1) + fibonacci(num - 2);
+        return fibonacci(number-1) + fibonacci(number - 2); // computes arguments and calls itself with those values till the finish condition is met
     }
 }
-
-// take nth term input from the user
-const nTerms = prompt('Enter the number of terms: ');
-
-if(nTerms <=0) {
-    console.log('Enter a positive integer.');
-}
-else {
-    for(let i = 0; i < nTerms; i++) {
-        console.log(fibonacci(i));
-    }
-}
-
