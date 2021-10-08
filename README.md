@@ -15,7 +15,7 @@
     
 ## How You Can Contribute to this repo
 Follow below steps for contribution.
-1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
+1. Add your JavaScript Concepts in the respective `JavaScript-Concepts` directory
     
 ### Name of File: js-concept-name_yourusername.js
 ```markdown
@@ -25,7 +25,7 @@ example: Variables_shruti49.js
     
 # Format
 
-### * JavaScript-Learn
+### * JavaScript-Concepts
 ### Name of File: JS-concept-name_yourusername.js
 
 ```markdown
@@ -47,7 +47,7 @@ example: Variables_shruti49.js
 
 <!-- ## How You Can Contribute to this repo
 Follow below steps for contribution.
-1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
+1. Add your JavaScript Concepts in the respective `JavaScript-Concepts` directory
 
 ### Name of File: js-concept-name_yourusername.js
 ```markdown
@@ -83,7 +83,7 @@ cd Hacktoberfest2021_beginners
 git remote add upstream https://github.com/shruti49/Hacktoberfest2021_beginners.git
 git pull upstream master
 ```
-#### 4. Make your addition to the JavaScript concepts in `JavaScript-Learn` directories
+#### 4. Make your addition to the JavaScript concepts in `JavaScript-Concepts` directories
 #### 5. Create a branch
 ```markdown
 git checkout -b your-branch-name
@@ -104,7 +104,7 @@ git push origin your-branch-name
 
 # Format
 
-### * JavaScript-Learn
+### * JavaScript-Concepts
 ### Name of File: JS-concept-name_yourusername.js
 
 ```markdown
