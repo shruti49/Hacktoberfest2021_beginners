@@ -3,9 +3,7 @@
 // GITHUB: https://github.com/hijal
 
 //Add your JavaScript concept below
-// callback is a function which  is passed as an argument to another function, 
-// which is invoked inside the outer function to get certain output.
-// here process is a function which is passed in another function printTitle as an argument.
+// intersection is a mathematical term. It help to find common values between two arrays.
 
 const array1 = [2, 3], array2 = [1, 2];
 
