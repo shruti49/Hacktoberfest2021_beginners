@@ -1,4 +1,8 @@
-console.log("Hello World");
+// AUTHOR: Deepak Kumar
+// Javascript Concept: LocalStorage
+// GITHUB: https://github.com/deepak0byte
+
+//Code start from here
 
 // set items in localstorage 
 localStorage.setItem('Name', 'Deepak');
