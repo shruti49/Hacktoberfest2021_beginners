@@ -1,3 +1,7 @@
+// AUTHOR: Yash Aggarwal
+// JavaScript Concept: Basics of arrays
+// GITHUB: https://github.com/yashaggarwal0722
+
 // What is an Array?
 // An array is a special variable, which can hold more than one value at a time.
 
