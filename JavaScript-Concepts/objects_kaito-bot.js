@@ -29,4 +29,4 @@ console.log(backpack.color); //black
 // bracket notation syntax is like this :
 //objectName["key"]
 
-console.log(backpack["waterProof"]);
+console.log(backpack["waterProof"]); //true
