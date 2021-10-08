@@ -1,3 +1,6 @@
+// AUTHOR: Jyoti Kumari
+// JavaScript Concept: Hoisting
+// GITHUB: https://github.com/jyoti21266
 
 //In JavaScript, Hoisting is the default behavior of moving all the declarations at the top of the scope before code execution.
 //As in below example variable x is initialised before it has been declared.
