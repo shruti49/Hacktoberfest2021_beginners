@@ -1,6 +1,6 @@
 // AUTHOR: Hijikesh Hijal
-// JavaScript Concept: array intersection
-// GITHUB: https://github.com/alpha-oss
+// JavaScript Concept: Intersection of two arrays
+// GITHUB: https://github.com/hijal
 
 //Add your JavaScript concept below
 // callback is a function which  is passed as an argument to another function, 
