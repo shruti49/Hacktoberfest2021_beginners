@@ -90,7 +90,7 @@ git checkout -b your-branch-name
 ```
 #### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
-git pull upstream master
+git pull origin master
 ```
 #### 7. Commit and Push your changes
 ```markdown
