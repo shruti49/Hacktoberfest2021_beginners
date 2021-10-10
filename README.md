@@ -15,7 +15,7 @@
     
 ## How You Can Contribute to this repo
 Follow below steps for contribution.
-1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
+1. Add your JavaScript Concepts in the respective `JavaScript-Concepts` directory
     
 ### Name of File: js-concept-name_yourusername.js
 ```markdown
@@ -25,7 +25,7 @@ example: Variables_shruti49.js
     
 # Format
 
-### * JavaScript-Learn
+### * JavaScript-Concepts
 ### Name of File: JS-concept-name_yourusername.js
 
 ```markdown
@@ -47,7 +47,7 @@ example: Variables_shruti49.js
 
 <!-- ## How You Can Contribute to this repo
 Follow below steps for contribution.
-1. Add your JavaScript Concepts in the respective `JavaScript-Learn` directory
+1. Add your JavaScript Concepts in the respective `JavaScript-Concepts` directory
 
 ### Name of File: js-concept-name_yourusername.js
 ```markdown
@@ -55,7 +55,8 @@ example: hello_world_Aman22sharma.js
 example: Variables_shruti49.js
 ``` -->
 
-- You can not add the same concepts again so, make sure the concepts are unique.
+- You can not add the same concepts again so, make sure the concepts are unique. OR You can add different examples to same file. That would also be counted. 
+- Just give your name and github url.
 
 Make a Pull Request for your changes and wait to be merged.
 
@@ -83,14 +84,14 @@ cd Hacktoberfest2021_beginners
 git remote add upstream https://github.com/shruti49/Hacktoberfest2021_beginners.git
 git pull upstream master
 ```
-#### 4. Make your addition to the JavaScript concepts in `JavaScript-Learn` directories
+#### 4. Make your addition to the JavaScript concepts in `JavaScript-Concepts` directories
 #### 5. Create a branch
 ```markdown
 git checkout -b your-branch-name
 ```
 #### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
-git pull upstream master
+git pull origin master
 ```
 #### 7. Commit and Push your changes
 ```markdown
@@ -104,7 +105,7 @@ git push origin your-branch-name
 
 # Format
 
-### * JavaScript-Learn
+### * JavaScript-Concepts
 ### Name of File: JS-concept-name_yourusername.js
 
 ```markdown
