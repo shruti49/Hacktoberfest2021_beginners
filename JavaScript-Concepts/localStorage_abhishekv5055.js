@@ -1,5 +1,5 @@
 // AUTHOR: Abhishek Vaish
-// JavaScript Concept: SessionStorage
+// JavaScript Concept: LocalStorage
 // GITHUB: https://github.com/abhishekv5055
 
 // Local Storage is used to store the data; store data can be access across different session.
