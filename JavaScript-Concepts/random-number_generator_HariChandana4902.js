@@ -1,3 +1,8 @@
+// AUTHOR : A.HariChandana
+// JavaScript Concept : Random number generation in JavaScript
+// GitHub : https://github.com/HariChandana4902
+
+
 // Generating a random number in the range from 1 to 6
 //Step-1: Math.random() is the function used to create a random decimal numbers from 0 to 0.9 to 16 decimal places like: 0.3647382746318429
 // Step-2: So, if we multiply Math.random() with the given number,we will decimal numbers with integral part as 0 / 1 / 2 /3 /4 /5
