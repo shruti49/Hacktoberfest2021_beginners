@@ -55,7 +55,8 @@ example: hello_world_Aman22sharma.js
 example: Variables_shruti49.js
 ``` -->
 
-- You can not add the same concepts again so, make sure the concepts are unique.
+- You can not add the same concepts again so, make sure the concepts are unique. OR You can add different examples to same file. That would also be counted. 
+- Just give your name and github url.
 
 Make a Pull Request for your changes and wait to be merged.
 
@@ -90,7 +91,7 @@ git checkout -b your-branch-name
 ```
 #### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
-git pull upstream master
+git pull origin master
 ```
 #### 7. Commit and Push your changes
 ```markdown
