@@ -5,7 +5,7 @@
 /**
  * For example we have an input box which the user would input age or price.
  * For doing Math calculations we'd need to convert the string to number.
- * These are several ways to do it
+ * These are a few ways to do it
  */
 
 let ageString = '25';
