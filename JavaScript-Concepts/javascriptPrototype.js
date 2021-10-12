@@ -1,3 +1,9 @@
+// AUTHOR:Gaurav Patil
+// JavaScript Concept: Prototypes
+// GITHUB: (githyb.com/GauravPatil8778)
+
+
+
 <script>  
 function Employee(firstName,lastName)  
 {  
