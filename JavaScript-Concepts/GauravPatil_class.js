@@ -1,4 +1,8 @@
-// Aouthor name
+// AUTHOR: Gaurav Patil
+// JavaScript Concept: Class and objects in javascript
+// GITHUB: (github.com/GauravPatil8778)
+
+
 
 class Car {
   constructor(name, year) {
