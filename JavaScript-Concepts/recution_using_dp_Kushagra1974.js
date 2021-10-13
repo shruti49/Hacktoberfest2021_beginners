@@ -1,6 +1,6 @@
 // AUTHOR: Kushgara
-// JavaScript Concept: recurtion using dp
-// GITHUB: your github profile link
+// JavaScript Concept: recurtion using Dynamic programming
+// GITHUB: https://github.com/Kushagra1974 
 
 //Add your JavaScript concept below
 // Dynamic programming is used to reduce the time complexity of a
