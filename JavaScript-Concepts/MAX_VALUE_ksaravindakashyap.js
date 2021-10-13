@@ -1,3 +1,7 @@
+// AUTHOR: KS ARAVINDA KASHYAP
+// JavaScript Concept: MAX_VALUE
+// GITHUB: https://github.com/ksaravindakashyap
+
 //JS Solution
 //Best Time to Buy and Sell Stock
 // You are given an array prices where prices[i] is the price of a given stock on the ith day.
