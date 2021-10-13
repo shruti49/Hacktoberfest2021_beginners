@@ -1,6 +1,7 @@
 //Author : Ishar Jain
+//JavaScript Concept : Wrapper Objects - String
 //github : www.github.com/ishar19
-//JavaScript Concept : Wrapper Objects
+
 
 // JavaScript provides three primitive wrapper types: Boolean, Number, and String types.
 
