@@ -1,5 +1,5 @@
 // AUTHOR : A.HariChandana
-// JavaScript Concept : Random number generation in JavaScript
+// JavaScript Concept : Random Method
 // GitHub : https://github.com/HariChandana4902
 
 Math.random() : It is a function which returns a floating point, pseudo-random number in the range 0 to less than 1 (inclusive of 0, but not 1) with approximately uniform distribution
