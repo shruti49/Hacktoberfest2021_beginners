@@ -1,5 +1,5 @@
 // AUTHOR: Adarsh Kushwaha
-// JavaScript Concept: Debouncing in javascript
+// JavaScript Concept: Debouncing
 // GITHUB: https://github.com/Adarsh-kushwaha
 
 //Debouncing in JavaScript is a practice used to improve browser performance
