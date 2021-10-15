@@ -1,5 +1,5 @@
 //Author: ijayzz
-//JavaScript Concept:  Memoization in JavaScript.
+//JavaScript Concept:  Memoization
 //GITHUB: https://github.com/ijayzz
 
 
