@@ -1,5 +1,5 @@
 // AUTHOR: Aniket Prabhakar
-// JavaScript Concept: Namaspace
+// JavaScript Concept: Namespace
 // GITHUB: https://github.com/aniketprabhakar
 
 // If someone adds to the page you are working on it can lead to conflicts so to prevent these conflicts we can give our code our own namespace.
