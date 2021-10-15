@@ -1,5 +1,5 @@
 // AUTHOR: shubhatt1
-// JavaScript Concept: Array flatten method
+// JavaScript Concept: Array
 // GITHUB: https://github.com/shubhatt1
 
 // array flat method is very useful for nested array to obtain them in a single array
