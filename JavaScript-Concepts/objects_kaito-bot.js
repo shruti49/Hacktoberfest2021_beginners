@@ -13,11 +13,11 @@
 // an object is declared like this :
 
 const backpack = {
-    color : "black",
-    size : "large",
-    waterProof : true,
-    priceInDollars : 50
-}
+	color: "black",
+	size: "large",
+	waterProof: true,
+	priceInDollars: 50,
+};
 
 //to access the properties of an object, dot notation and bracket notation is used
 
@@ -31,8 +31,6 @@ console.log(backpack.color); //black
 
 console.log(backpack["waterProof"]); //true
 
-
-
 //Object.keys(),Object.values() and Object.entries() methods are three methods of class Object.
 
 //Object.keys() method returns an array of a given object's property's key.It takes in the name of the object as an argument.
@@ -43,11 +41,11 @@ console.log(backpack["waterProof"]); //true
 
 // object declaration
 const laptop = {
-  company: "HP",
-  color: "black",
-  processor: " intel core i5",
-  RAM: "8GB",
-  graphicCard: "AMD Radeon",
+	company: "HP",
+	color: "black",
+	processor: " intel core i5",
+	RAM: "8GB",
+	graphicCard: "AMD Radeon",
 };
 
 //Object.keys(objName)
@@ -67,3 +65,34 @@ console.log(entries); /*[
     [ 'RAM', '8GB' ],
     [ 'graphicCard', 'AMD Radeon' ]
   ]*/
+
+// AUTHOR: Akshat Srivastava
+// JavaScript Concept: Object.assign() - JavaScript Concept
+// GITHUB: https://github.com/akshat-fsociety
+
+// The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It returns the modified target object.
+
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+/* Syntax
+   Object.assign(target, ...sources)
+
+   Parameters
+   
+target:
+The target object — what to apply the sources’ properties to, which is returned after it is modified.
+
+sources:
+The source object(s) — objects containing the properties you want to apply.
+
+Return value
+The target object.*/
