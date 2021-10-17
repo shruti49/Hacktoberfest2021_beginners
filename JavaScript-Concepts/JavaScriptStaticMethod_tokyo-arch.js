@@ -1,3 +1,7 @@
+// AUTHOR: Tokyo Arch
+// JavaScript Concept: JavaScriptStaticMethod
+// GITHUB: https://github.com/tokyo-arch
+
 //The JavaScript provides static methods that belong to the class instead of an instance of that class. So, an instance is not required to call the static method.
 //These methods are called directly on the class itself.
 
