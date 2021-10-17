@@ -82,7 +82,7 @@ cd Hacktoberfest2021_beginners
 #### 3. Set your streams (For sync your clone with the original repo)
 ```markdown
 git remote add upstream https://github.com/shruti49/Hacktoberfest2021_beginners.git
-git pull upstream master
+git pull upstream main
 ```
 #### 4. Make your addition to the JavaScript concepts in `JavaScript-Concepts` directories
 #### 5. Create a branch
@@ -91,7 +91,7 @@ git checkout -b your-branch-name
 ```
 #### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
-git pull origin master
+git pull origin main
 ```
 #### 7. Commit and Push your changes
 ```markdown
