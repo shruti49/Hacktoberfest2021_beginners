@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <h1>JavaScript Array</h1>
+<script>
+
+function printDuplicateElt(arr , size)
+
+{
+
+var i, j;
+
+document.write("Duplicate Elements of Array are : ");
+
+for (i = 0; i < size-1; i++)
+
+{
+
+for (j = i + 1; j < size; j++)
+
+{
+
+if (arr[i] == arr[j])
+
+document.write(arr[i] + " ");
+
+}
+
+}
+
+}
+var arr = [4,4,7,8,8,9];
+
+var arr_size = arr.length;
+
+printDuplicateElt(arr, arr_size);
+
+</script>
+</body>
+
+</html>
+
+
+
