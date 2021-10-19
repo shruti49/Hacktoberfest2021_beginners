@@ -1,3 +1,8 @@
+// AUTHOR: Aman
+// JavaScript Concept: Higher order function in Javascript
+// GITHUB: https://github.com/amanag25
+
+
 // Functions that operate on other functions, either by taking them as arguments
 // or by returning them, are called higher-order functions. The term comes from mathematics, where the
 //  distinction between functions and other values is taken more seriously.
