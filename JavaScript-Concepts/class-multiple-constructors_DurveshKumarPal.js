@@ -1,3 +1,7 @@
+// AUTHOR: DURVESH KUMAR PAL
+// JavaScript Concept:class-multiple-constructors
+// GITHUB: https://github.com/DurveshKumarPal
+
 class Rectangle {
     constructor(height, width) {
         this.height = height;
