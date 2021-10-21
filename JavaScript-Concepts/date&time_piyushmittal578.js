@@ -84,3 +84,60 @@ document.getElementById("demo").innerHTML = d.toDateString();
 
 const d = new Date();
 document.getElementById("demo").innerHTML = d.toISOString();
+
+
+// AUTHOR: Nikhil Singh
+// JavaScript Concept: Date Objects
+// GITHUB: https://github.com/singhnikhiljsr/
+
+// JavaScript Set Date Methods
+
+// It lets you set date values (years, months, days, hours, minutes, seconds, milliseconds) for a Date Object
+
+setDate()                     // Set the day as a number (1-31)
+
+// Example
+const d = new Date();
+d.setDate(15);
+
+setFullYear()                 // Set the year (optionally month and day)
+
+// Example
+const d = new Date();
+d.setFullYear(2020, 11, 3);
+
+setHours()                    // Set the hour (0-23)
+
+// Example
+const d = new Date();
+d.setHours(22);
+
+setMilliseconds()             // Set the milliseconds (0-999)
+
+// Example
+const d = new Date();
+d.setMilliseconds(50);
+
+setMinutes()                  // Set the minutes (0-59)
+
+// Example
+const d = new Date();
+d.setMinutes(30);
+
+setMonth()	                  // Set the month (0-11)
+
+// Example
+const d = new Date();
+d.setMonth(11);
+
+setSeconds()                  // Set the seconds (0-59)
+
+// Example
+const d = new Date();
+d.setSeconds(30);
+
+setTime()                     // Set the time (milliseconds since January 1, 1970)
+
+// Example
+var d = new Date();
+d.setTime(133);
