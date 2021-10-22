@@ -23,3 +23,27 @@ items.forEach((item) => {
 console.log(copyItems)
 
 // Expected output = [ 1, 2, 3, 4, 5 ]
+
+
+// AUTHOR: Nikhil Singh
+// JavaScript Concept: For Of Loop
+// GITHUB: https://github.com/singhnikhiljsr/
+
+
+// The JavaScript for of statement loops through the values of an iterable object.
+// It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+
+// Syntax //
+
+for (variable of iterable) {
+  // code block to be executed
+}
+
+// Example
+
+const cars = ["Nikhil", "Shruti", "Aman"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+}
