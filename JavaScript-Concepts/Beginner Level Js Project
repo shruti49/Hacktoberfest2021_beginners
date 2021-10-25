@@ -1,0 +1,77 @@
+<! --- AUTHOR: Amitesh Kumar Keshari ---> 
+<! --- JavaScript Concept: getElementById(),addEventListener(),createElement(),createTextNode(),appendChild(),setTimeout(),remove() ---> 
+<! --- GITHUB: https://github.com/Amitesh32002---> 
+<! ---A beginer level project which helps to understand the above mentioned concepts---> 
+ 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toast Notification</title>
+  <style>
+    button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      border: none;
+      outline: none;
+      padding: 5px 10px;
+      background-color: black;
+      color: white;
+      font-size: 1rem;
+      border-radius: 10px;
+
+    }
+
+    .toast {
+      width: 500px;
+      height: 50px;
+      background-color: yellow;
+      text-align: center;
+      padding-top: 2rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="notification">
+    <button id="btn">Generate notification</button>
+  </div>
+
+  <script>
+
+    // getElementById() : It help you to select html element with id
+    // for example here "btn" is a id of html tag button and similarly "notification" is a id of html tag div;
+
+    let button = document.getElementById("btn");
+    let div = document.getElementById("notification");
+
+
+    // With the help of addEventListener() you can add various events on which your tag will respond like here i have used click event on button
+
+    button.addEventListener("click", function () {
+
+      // With createElement() you can create html tag with in a javascript and later you can add class to it with "element.classList.add("CLASS NAME")" 
+      let element = document.createElement("p");
+      element.classList.add("toast"); 
+
+      // you can also create a text and later you can append text to the created element with appendChild()
+      let notification = document.createTextNode("This is to notify you that");
+      element.appendChild(notification);
+
+      div.appendChild(element);
+
+      //The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds
+      setTimeout(() => {
+        element.remove(); 
+      }, 3000);
+    });
+  </script>
+</body>
+</html>
