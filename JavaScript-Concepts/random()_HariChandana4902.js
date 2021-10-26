@@ -30,3 +30,28 @@ var random_number = Math.random();
 random_number = random_number * 6;
 random_number = Math.floor(random_number) + 1; 
 console.log(random_number); 
+
+
+// AUTHOR: Simar Preet Singh
+// JavaScript Concept: Generation of random number between two given numbers.
+// GITHUB: https://github.com/simarpreetsinghkalra
+
+/**
+ * Generates a random number between numbers minNo and maxNo.
+ * @param {number} minNo - smallest number of the range.
+ * @param {number} maxNo - largest number of the range.
+ */
+
+function randomNoBetween(minNo, maxNo) {
+  return Math.floor(Math.random() * (maxNo - minNo + 1) + minNo);
+}
+
+// random number between 200-500
+console.log(randomNoBetween(200, 500));
+
+// random number between 200-600
+console.log(randomNoBetween(200, 600));
+
+// random number between 500-800
+console.log(randomNoBetween(500, 800));
+
