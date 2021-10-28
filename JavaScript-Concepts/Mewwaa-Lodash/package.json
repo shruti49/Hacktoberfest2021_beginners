@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Lodash functions",
+  "main": "lodash.js",
+  "scripts": {
+    "start": "node lodash-Mewwaa.js"
+  },
+  "keywords": [
+    "#app"
+  ],
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "game": "^1.0.3",
+    "lodash": "^4.17.15",
+    "prompt": "^1.0.0",
+    "prompts": "^2.3.2",
+    "rangecal": "^2.0.5",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "author": "Ewa Zalewska (github name: Mewwaa)"
+}
