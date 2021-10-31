@@ -114,6 +114,9 @@ git push origin your-branch-name
 // GITHUB: your github profile link
 
 //Add your JavaScript concept below
+//Guys feel free to make your contribution to this repo.
+
+//Thank you!!!
 ```
 
 
