@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Form</title>
+    <style>
+        body{
+            background-color: #DBF9FC;
+            
+        } 
+
+        .center{
+            text-align: center;
+            margin-top: 10%;
+            display: flexbox;
+            padding: 4%;
+            
+            
+        }
+
+        .main{ 
+            background-color: white;
+            margin: 100px 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            min-height: 70px;
+        }
+
+        .box{
+            width: 220px;
+            height: 20px;
+        }
+
+        
+        .error{
+            display: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="center">
+            <h1 >Registration Form</h1>
+            <form onsubmit="onFormSubmit()" autocomplete="off" action="localstorage.html">
+            
+                <p id="demo" class="error"></p>
+                <label style="margin-right: 170px;"><b>Name</b></label><br>
+                <input type="text" placeholder="Enter name" name="name" id="name"  class="box" onblur="namevalidate()" required><br><br>
+             
+                
+                 <label style="margin-right: 170px;"><b>Gender</b></label><br>
+                <p id="demo1" class="error"></p> 
+              <select name="" id="gender">
+                <option >male</option>
+                <option >female</option>
+              </select> <br><br>
+            
+                <label style="margin-right: 170px;"><b>Email</b></label><br>
+                <p id="demo2" class="error"></p>
+                <input type="text" name="email" placeholder="Enter an email." id="email"   class="box" onblur="emailvalidate()" required><br><br>
+            
+                <label style="margin-right: 150px;"><b>Phone No.</b></label><br>
+                <p id="demo3" class="error"></p>
+                <input type="text" name="phoneno" placeholder="Enter your phone number." id="phoneno"  class="box" onblur="phonevalidate()" required><br><br>
+            
+                <label style="margin-right: 150px;"><b>Password</b></label><br>
+                <p id="demo4" class="error"></p>
+                <input type="password" placeholder="Enter password." name= "pwd" id="pwd" class="box" onblur="passwordvalidate()" required><br><br>
+
+                <label style="margin-right: 90px;"><b>Confirm Password</b></label><br>
+                <p id="demo5" class="error"></p>
+                <input type="password" placeholder="Enter confirm password." name="cpwd" id="cpwd" class="box" onblur="cpasswordvalidate()" required><br><br>
+
+                <input type="submit" placeholder="submit" id="submit">
+            </form>
+        </div>
+        
+    </div>   
+    <script>
+         
+         var submit= document.getElementById("submit");
+
+        // var radio = document.getElementsByName("gender")[0].checked = true;
+        
+        function namevalidate() {
+            var name = document.getElementsByName("name")[0].value;
+            console.log();
+            if(name == ''){
+                document.getElementById("demo").style.display = "block";
+                document.getElementById("demo").style.color = "Red";
+                document.getElementById("demo").style.border = "Red";
+                document.getElementById("demo").innerHTML = "Invalid value for name.";
+                submit.style.display="none";
+                return false;
+
+            } else {
+                submit.style.display="inline";
+                document.getElementById("demo").style.display = "none";
+                
+                return true;  
+            }
+        }
+
+        function emailvalidate(){
+            
+            var str = document.getElementById("email").value;
+            var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+            if(!pattern.test(str)){
+                document.getElementById("demo2").style.display = "block";
+                document.getElementById("demo2").innerHTML = "Invalid emailid format.";
+                document.getElementById("demo2").style.color = "Red";
+                submit.style.display="none";
+                return false;
+            } else {
+                document.getElementById("demo2").style.display = "none";
+                document.getElementById("demo2").innerHTML = "You got success!!!";
+                submit.style.display="inline";
+                return true;
+            }
+
+            
+        }
+       
+        function passwordvalidate(){
+            var pwd = document.getElementById("pwd").value;
+            if (pwd.length === 0 || pwd.length < 5 || pwd.length>12){
+                document.getElementById("demo4").style.display = "block";
+                document.getElementById("demo4").style.color = "Red";
+                document.getElementById("demo4").innerHTML = "Invalid Password format.";
+                submit.style.display="none";
+                return false;
+            }else {
+                document.getElementById("demo4").style.display = "none";
+                submit.style.display="inline";
+                return true;
+            }
+        }
+
+        function cpasswordvalidate(){
+
+            if(document.getElementById("pwd").value != document.getElementById("cpwd").value){
+                document.getElementById("demo5").style.display = "block";
+                document.getElementById("demo5").style.color = "Red";
+                document.getElementById("demo5").innerHTML = "Invalid Password .";
+                submit.style.display="none";
+                return false;
+        }else {
+                document.getElementById("demo5").style.display = "none";
+                submit.style.display="inline";
+                return true;
+            }
+
+    }
+
+        function phonevalidate() {
+            var phone = document.getElementById("phoneno").value;
+            var re = /^\(?(\d{3})\)?[- ]?(\d{3})[- ]?(\d{4})$/;
+            if(!re.test(phone)){
+                document.getElementById("demo3").style.display = "block";
+                document.getElementById("demo3").style.color = "Red";
+                document.getElementById("demo3").innerHTML = "Phone number length must be 10.";
+                submit.style.display="none";
+                return false;
+            }else {
+                document.getElementById("demo3").style.display = "none";
+                submit.style.display="inline";
+            }
+            return true;
+        }
+        
+        document.forms[0].addEventListener("submit", function (e){
+            e.preventDefault();
+            var name = namevalidate();
+            var email = emailvalidate();
+            var phone = phonevalidate();
+            var pwd = passwordvalidate();
+            var cpwd = cpasswordvalidate();
+            console.log(name, email, phone, pwd,cpwd);
+            if(name && email && phone && pwd && cpwd){
+                //e.currentTarget.submit();
+                readFormData();
+            location.href = "./localstorage.html"
+            }
+
+           
+        });
+
+    </script>
+    
+</body>
+</html>
