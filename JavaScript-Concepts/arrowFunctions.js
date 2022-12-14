@@ -1,6 +1,6 @@
-// AUTHOR: Paula Leal Funes
+
 // JavaScript Concept: Arrow Functions
-// GITHUB: https://github.com/pllealfunes
+
 
 
 // Arrow functions were introduced in ES6. Arrow functions give us the ability
