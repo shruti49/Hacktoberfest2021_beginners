@@ -42,7 +42,7 @@ const d = new Date();
 new Date()
 new Date(year, month, day, hours, minutes, seconds, milliseconds)
 new Date(milliseconds)
-new Date(date string)
+new Date(date, string)
 
 // 1. new Date()
 // new Date() creates a new date object with the current date and time:
