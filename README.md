@@ -3,18 +3,19 @@
 
 <table>
   <tr>
-  <td>
-- Follow the Contribution guidelines**
-</td>
-<td>
-<h6 align="center">Repo Maintainers</h6>
- </td>
-</tr>
-<tr>
-  <td>
-    
+    <td>
+      <strong>Follow the Contribution guidelines</strong>
+    </td>
+    <td>
+      <h4 align="center">Repo Maintainers</h6>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+
 ## How You Can Contribute to this repo
-Follow below steps for contribution.
+Follow below steps for contribution:
 1. Add your JavaScript Concepts in the respective `JavaScript-Concepts` directory
     
 ### Name of File: js-concept-name_yourusername.js
@@ -37,8 +38,8 @@ example: Variables_shruti49.js
 ```
   </td>
   <td>
-     <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136264790-d0559d21-505f-4141-b41d-40486a4a61a9.jpg" /></p>
-     <h6 align="center">Aman Sharma<br>Product Engineer<br>@Hylobiz, Banglore (India)</h6>
+    <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136264790-d0559d21-505f-4141-b41d-40486a4a61a9.jpg" /></p>
+    <h6 align="center">Aman Sharma<br>Product Engineer<br>@Hylobiz, Banglore (India)</h6>
     <p align="center"><img align="center" src="https://user-images.githubusercontent.com/40789486/136265064-076243f0-51bb-4b78-b967-39ff25f4833d.png" /></p>
     <h6 align="center">Shruti Shastri<br>Software Engineer<br>@32nd, Delhi (India)</h6>
   </td>
@@ -57,8 +58,7 @@ example: Variables_shruti49.js
 
 - You can not add the same concepts again so, make sure the concepts are unique. OR You can add different examples to same file. That would also be counted. 
 - Just give your name and github url.
-
-Make a Pull Request for your changes and wait to be merged.
+- Make a Pull Request for your changes and wait to be merged.
 
 # How to Begin
 #### 0. :star::star::star: Star this repository :star::star::star:
@@ -82,7 +82,7 @@ cd Hacktoberfest2021_beginners
 #### 3. Set your streams (For sync your clone with the original repo)
 ```markdown
 git remote add upstream https://github.com/shruti49/Hacktoberfest2021_beginners.git
-git pull upstream master
+git pull upstream main
 ```
 #### 4. Make your addition to the JavaScript concepts in `JavaScript-Concepts` directories
 #### 5. Create a branch
@@ -91,7 +91,7 @@ git checkout -b your-branch-name
 ```
 #### 6. Pull from the upstream again (This is to ensure we still have the latest code)
 ```markdown
-git pull origin master
+git pull origin main
 ```
 #### 7. Commit and Push your changes
 ```markdown
@@ -119,4 +119,3 @@ git push origin your-branch-name
 
 # HAPPY Hacktoberfest!
 ![1_Zgzm5Dw86UPNlSLeyUAoyw](https://user-images.githubusercontent.com/40789486/94897225-cfac6580-04ac-11eb-9e58-79d821976848.gif)
-
