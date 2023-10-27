@@ -20,7 +20,7 @@ arr = arr.filter((item) => {
 })
 console.log(arr); // [60,  80, 100, 120, 140, 160, 180, 200]
 
-// 3. reduce : used to get the sinle value
+// 3. reduce : used to get the single value
 
 arr = arr.reduce((accumulator, item) => {
     return accumulator + item
