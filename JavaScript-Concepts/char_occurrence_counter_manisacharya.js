@@ -15,6 +15,6 @@ function charNum(str) {
 }
 
 // Add any text you like for the counter here
-let text = 'Hello, how are you. Thank you very much.';
+let text = "Hello, how are you. Thank you very much.";
 
 charNum(text);
